@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik | AI & ML Engineer</title>
+    <meta name="description"
+        content="Portfolio of Kartik, an AI/ML enthusiast specializing in Python, Deep Learning, and Data Science.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- GSAP & Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+    <!-- 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Kartik</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I am</p>
+                <h1 class="glitch" data-text="Kartik Jattu">Kartik Jattu</h1>
+                <h2 class="subtitle">AI & ML Enthusiast</h2>
+                Solving complex problems through data-driven solutions. <br>
+                Passionate about Efficient ML Models, Data Analytics, and Cloud AI.
+                </p>
+                <div class="hero-socials">
+                    <a href="https://github.com/Kartikjattu" target="_blank" title="GitHub"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/kartik-jattu" target="_blank" title="LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:kartikjattu222@gmail.com" title="Email"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-container" data-tilt>
+                <div class="hero-image-wrapper">
+                    <img src="images/profile.jpg" alt="Kartik Jattu" class="hero-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">01. About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am an AI/ML enthusiast with a strong foundation in <strong>Python, C/C++</strong>, and machine
+                        learning frameworks like <strong>Scikit-learn</strong> and <strong>TensorFlow</strong>.
+                        My journey involves developing ML models, performing rigorous data analytics, and deploying
+                        cloud-based AI solutions.
+                    </p>
+                    <p>
+                        I am passionate about efficiency and scalability, always eager to contribute to innovative,
+                        high-impact projects.
+                        Currently pursuing my <strong>B.Tech in AI & ML</strong> at Chandigarh Group of Colleges.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card" data-tilt>
+                        <h3>3+</h3>
+                        <p>Years Coding</p>
+                    </div>
+                    <div class="stat-card" data-tilt>
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card" data-tilt>
+                        <h3>4+</h3>
+                        <p>Certifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">02. Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>C/C++</span>
+                        <span>Java</span>
+                        <span>SQL</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML Tools</h3>
+                    <div class="skill-tags">
+                        <span>TensorFlow</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>NLTK</span>
+                        <span>OpenAI Gym</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Platforms & Tools</h3>
+                    <div class="skill-tags">
+                        <span>VS Code</span>
+                        <span>Google Colab</span>
+                        <span>Anaconda</span>
+                        <span>Tableau</span>
+                        <span>IBM Cloud</span>
+                        <span>PyCharm</span>
+                        <span>Git/GitHub</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>OS</h3>
+                    <div class="skill-tags">
+                        <span>Windows</span>
+                        <span>Ubuntu</span>
+                        <span>Kali Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Interpersonal Skills</h3>
+                    <div class="skill-tags">
+                        <span>Leadership</span>
+                        <span>Time Management</span>
+                        <span>Team Management</span>
+                        <span>Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships / Experience (Timeline) -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">03. Experience</h2>
+            <div class="timeline">
+                <!-- Internship 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">July 2024</div>
+                    <div class="timeline-content">
+                        <h3>Intern Trainee</h3>
+                        <h4>Edunet Foundation</h4>
+                        <ul>
+                            <li>Completed a 1-month training covering AI, machine learning, and cloud computing.</li>
+                            <li>Gained hands-on experience with Python and IBM Cloud tools, deploying AI/ML models on
+                                IBM Cloud.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Internship 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">August 2022</div>
+                    <div class="timeline-content">
+                        <h3>Networking Intern</h3>
+                        <h4>Solitaire Infosys Pvt. Ltd.</h4>
+                        <ul>
+                            <li>Completed a 6-week internship in the networking department.</li>
+                            <li>Gained hands-on experience in network configuration, troubleshooting, and security.</li>
+                            <li>Worked with routers, switches, and network protocols to optimize system performance.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">04. Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <a href="https://github.com/Kartikjattu" target="_blank" class="project-card" data-tilt>
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder"></i>
+                        <div class="project-links">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                    <h3>Trader Performance vs Market Sentiment</h3>
+                    <p>Analyzed the relationship between Bitcoin market sentiment (Fear & Greed Index) and trader
+                        performance. Visualized patterns across market conditions to generate data-driven insights.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="https://github.com/Kartikjattu/RansomwareDetectionTools" target="_blank" class="project-card"
+                    data-tilt>
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder"></i>
+                        <div class="project-links">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                    <h3>RansomwareDetectionTools</h3>
+                    <p>AI-powered detection system with real-time monitoring. Integrated signature & ML-based detection
+                        with automated quarantine and a Flask dashboard for threat visualization.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Scikit-learn</span>
+                        <span>SQLite</span>
+                        <span>HTML/CSS</span>
+                        <span>Pandas</span>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://github.com/Kartikjattu" target="_blank" class="project-card" data-tilt>
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder"></i>
+                        <div class="project-links">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                    <h3>Smart Traffic Management</h3>
+                    <p>Reinforcement Learning system integrated with OpenAI Gym and SUMO for agent training in dynamic
+                        traffic scenarios. Optimized flow by processing real-time traffic data.</p>
+                    <div class="project-tech">
+                        <span>RL</span>
+                        <span>OpenAI Gym</span>
+                        <span>TensorFlow</span>
+                        <span>SUMO</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">05. Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <h4>B.Tech in AI & ML</h4>
+                    <p class="edu-school">Chandigarh Group of Colleges | Mohali</p>
+                    <p class="edu-year">2023 - 2026</p>
+                    <p class="edu-desc">Relevant Courses: DSA, AI, OOPS, Neural Networks, Deep Learning.</p>
+                </div>
+                <div class="edu-card">
+                    <h4>Diploma in CSE</h4>
+                    <p class="edu-school">Maharishi Kashyap Govt. Polytechnic</p>
+                    <p class="edu-year">2020 - 2023</p>
+                    <p class="edu-desc">Relevant Courses: Java, IoT, Cloud Computing.</p>
+                </div>
+                <div class="edu-card">
+                    <h4>Senior Secondary Education</h4>
+                    <p class="edu-school">Govt. Sr. Sec. School | Karnal</p>
+                    <p class="edu-year">2019 - 2020</p>
+                </div>
+                <div class="edu-card">
+                    <h4>Matriculation</h4>
+                    <p class="edu-school">Govt. Sr. Sec. School | Karnal</p>
+                    <p class="edu-year">2017 - 2018</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">06. Certifications</h2>
+            <ul class="cert-list">
+                <li>
+                    <a href="images/certificates/Data%20Analytics.jpg" target="_blank">
+                        <span>Data Analytics Certificate</span> - Deloitte (Jan 2026)
+                        <p class="cert-desc">Created a data dashboard using Tableau. Used Excel to classify data and
+                            draw business conclusions.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/Data%20Analytics%20with%20Specialization%20in%20Tableau.jpg"
+                        target="_blank">
+                        <span>Data Analytics with Specialization in Tableau</span> - Jobaz Learning
+                        <p class="cert-desc">Demonstrated proficiency in data visualization, analysis, and reporting
+                            using Tableau.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/Bridge%20to%20ai%20python%20Workshop.jpg" target="_blank">
+                        <span>Bridge to AI: Python Workshop</span> - JWINFO.TECH
+                        <p class="cert-desc">Specialized Python training focused on AI and machine learning
+                            fundamentals.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/cert-07.jpg" target="_blank">
+                        <span>Getting Started with Enterprise-Grade AI</span> - IBM
+                        <p class="cert-desc">Covers foundational skills for implementing scalable, secure AI solutions
+                            in enterprise environments.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/Introduction to MongoDB.jpg" target="_blank">
+                        <span>Getting Started with Enterprise Data Science</span> - IBM
+                        <p class="cert-desc">Covers foundational data science skills for enterprise applications and
+                            data-driven decision-making.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/Introduction%20to%20MongoDB.jpg" target="_blank">
+                        <span>Introduction to MongoDB</span> - MongoDB
+                        <p class="cert-desc">Gained foundational knowledge of MongoDB, including database design, CRUD
+                            operations, indexing, and aggregation.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/AWS%20Accademy%20Graduate.jpg" target="_blank">
+                        <span>AWS Academy Graduate - Generative AI Foundations</span>
+                        <p class="cert-desc">Builds competence and credibility with practical cloud skills for
+                            innovation and professional advancement.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/introduction%20to%20NLP.jpg" target="_blank">
+                        <span>Introduction to NLP</span> - Infosys Springboard
+                        <p class="cert-desc">Developed a strong understanding of NLP concepts, including text
+                            preprocessing, tokenization, and sentiment analysis.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/INTRODUCTRION%20TO%20DEEP%20LEARNING.jpg" target="_blank">
+                        <span>Introduction to Deep Learning</span> - Infosys Springboard
+                        <p class="cert-desc">Covered fundamental deep learning concepts, including neural networks,
+                            backpropagation, and model training techniques.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="images/certificates/Introduction%20to%20Artifical%20Intelligence.jpg" target="_blank">
+                        <span>Introduction to Artificial Intelligence</span> - Infosys Springboard
+                        <p class="cert-desc">Simulation of human intelligence processes by machines, especially computer
+                            systems.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title center">Get In Touch</h2>
+            <p class="contact-text">
+                I am currently looking for new opportunities. Whether you have a question or just want to say hi, I'll
+                try my best to get back to you!
+            </p>
+            <div class="contact-details">
+                <a href="mailto:kartikjattu222@gmail.com" class="btn primary big">Say Hello</a>
+                <p class="phone-number">+(91) 999 222 5802</p>
+            </div>
+
+            <footer class="footer">
+                <div class="social-links">
+                    <a href="https://github.com/Kartikjattu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/kartik-jattu" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:kartikjattu222@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <p>Designed & Built by Kartik Jattu</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="js/three-bg.js"></script>
+    <script type="module" src="js/main.js"></script>
+
+    <!-- Tilt.js for card 3D hover effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5,
+        });
+    </script>
+</body>
+
+</html>
